@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>portfolio</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="./css/main.css">
+        <style>
+            h1,h4,h3{
+                text-transform: uppercase;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- main header -->
+        <div class="container">
+            <header class="main-header">
+                <div id="logo">
+                    <a href="index.html">
+                        <img src="./images/logo.png" alt="logo">
+                    </a>
+                </div>
+                <nav class="main-navigation">
+                    <ul class="main-navigation-items">
+                        <li class="main-navigation-item active">
+                            <a href="#">asosiy</a>
+                        </li>
+                        <li class="main-navigation-item">
+                            <a href="#">men haqimda</a>
+                        </li>
+                        <li class="main-navigation-item">
+                            <a href="#">xizmatlar</a>
+                        </li>
+                        <li class="main-navigation-item">
+                            <a href="#">mijozlar</a>
+                        </li>
+                        <li class="main-navigation-item">
+                            <a href="#">portfolio</a>
+                        </li>
+                        <li class="main-navigation-item">
+                            <a href="#">blok</a>
+                        </li>
+                        <li class="main-navigation-item">
+                            <a href="#">sheriklarim</a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+        <!-- main header -->
+
+        <!-- main section -->
+        <div class="container">
+            <section id="main-section" class="main-section">
+                <div class="main-section-info">
+                    <h4 class="main-section-welcome">Assalomu aleykum everyone!</h4>
+                    <h1 class="main-section-introduction">I am Nasimjon</h1>
+                    <h3 class="main-section-position">Middle Developer & Skilled in robotics and automation </h3>
+                    <div class="main-section-social-networks">
+                        <a href="https://t.me/Nasimjon_Xudayberdiyev" target="_blank" rel="noopener noreferrer">
+                            <i class="fa-brands fa-telegram"></i>
+                        </a>
+                        <a href="https://instagram.com/xudayberdiyev_nasimjon" target="_blank" rel="noopener noreferrer">
+                            <i class="fa-brands fa-square-instagram"></i>
+                        </a>
+                        <a href="https://www.youtube.com/@NasimjonXudayberdiyev" target="_blank" rel="noopener noreferrer">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+                        <a href="https://github.com/nasimjon2207" target="_blank" rel="noopener noreferrer">
+                            <i class="fa-brands fa-square-github"></i>
+                        </a>
+                    </div>
+                    <button onclick="window.open('mycv.html', '_blank')" type="button" class="main-section-action">MyCV</button>
+                </div>
+                <div class="main-section-image">
+                    <img src="./images/me.png" alt="My image">
+                </div>
+            </section>
+            <div class="clearfix"></div>
+        </div>
+        <!-- main section -->
+
+        <!-- statistika -->
+        <div class="container">
+            <section id="statistika" class="statistika">
+                <div class="statistika-item">
+                    <h3 class="statistika-number">15k+</h3>
+                    <p class="statistika-title">Hursand mijozlar</p>
+                </div>
+                <div class="statistika-item">
+                    <h3 class="statistika-number">12k+</h3>
+                    <p class="statistika-title">Yordam</p>
+                </div>
+                <div class="statistika-item">
+                    <h3 class="statistika-number">9/10</h3>
+                    <p class="statistika-title">O'rtacha reyting</p>
+                </div>
+            </section>
+        </div>
+         <!-- statistika -->
+
+        <!-- about sections -->
+        <div class="container">
+            <section id="about-me" class="about-me">
+                <div class="about-me-image">
+                    <img src="./images/my_own_photo.png" alt="About me image">
+                </div>
+                <div class="about-me-info">
+                    <h1 class="section-subtitle">Men haqimda <span class="blur-line"></span></h1>
+                    <h2 class="section-title"> Junior Developer</h4>
+                    <p class="about-me-description">
+                        Mening ismim Nasimjon 2001-yilda Kosonsoy tumanida tug'ulganman. Hozirda Namangan davlat universiteti 
+                        magistr talabasi hamda 2024-yildan beri "Turan International University"da o'qituvchi lavozimida ishlayman.
+                        Robototexnika va apparatlar bilan ishlayman hamda coding bilan shug'ullanaman.
+                    </p>
+                    <button type="button" class="button to-uppercase" onclick="downloadPDF()">CV pdf download</button>
+
+                    <script>
+                    function downloadPDF() {
+                        const link = document.createElement('a');
+                        link.href = 'mycv.pdf';
+                        link.download = 'MyCV.pdf';
+                        link.click();
+                    }
+                    </script>
+                </div>
+            </section>
+            <div class="clearfix"></div>
+        </div>
+        <!-- about sections -->
+
+        <!-- service section -->
+        <div class="container">
+            <section id="services" class="services">
+                <h5 class="section-subtitle">Mening xizmatlarim <span class="blur-line"></span></h5>
+                <h2 class="section-title">Men taklif <br>qiladigan xizmatlar</h2>
+                <div class="services-cards">
+                    <div class="service-card">
+                        <img class="service-card-icon" src="./images/logolion.png" alt="Service 1">
+                        <h5 class="service-card-title">Veb dasturlash</h5>
+                        <p class="service-card-description">
+                            Savollaringizga to'liq javoblar va birinchi Robototexnika ishingiz uchun kerakli barcha bilimlarni egallaysiz!
+                        </p>
+                        <a href="#" class="service-card-link">Ko'proq</a>
+                    </div>
+                    <div class="service-card">
+                        <img class="service-card-icon" src="./images/logo2.png" alt="Service 1">
+                        <h5 class="service-card-title">Veb dasturlash</h5>
+                        <p class="service-card-description">
+                            Savollaringizga to'liq javoblar va birinchi Robototexnika ishingiz uchun kerakli barcha bilimlarni egallaysiz!
+                        </p>
+                        <a href="#" class="service-card-link">Ko'proq</a>
+                    </div>
+                    <div class="service-card">
+                        <img class="service-card-icon" src="./images/logo3.png" alt="Service 1">
+                        <h5 class="service-card-title">Veb dasturlash</h5>
+                        <p class="service-card-description">
+                            Savollaringizga to'liq javoblar va birinchi Robototexnika ishingiz uchun kerakli barcha bilimlarni egallaysiz!
+                        </p>
+                        <a href="#" class="service-card-link">Ko'proq</a>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!-- service section -->
+
+        <!-- client section -->
+        <div class="container">
+            <section id="client" class="client">
+            <h5 class="section-subtitle">Mening mijozlarim <span class="blur-line"></span></h5>
+            <h2 class="section-title">Hurmatli mijozlarim <br> men haqimda</h2>
+            <div class="client-itmes">
+                <div class="client-item">
+                    <div class="client-item-image">
+                        <img src="./images/photo_free.jpg" alt="client image">
+                    </div>
+                    <div class="client-item-info">
+                        <h3 class="client-item-name">Alisher Usmonov</h3>
+                        <p class="client-item-position">Senior(katta) Developer</p>
+                        <p class="client-item-review">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley 
+                            of type and scrambled it to make a type specimen book.It has survived not only five centuries, but also the leap into electronic typesetting, 
+                            remaining essentially unchanged.
+                        </p>
+                        <div class="client-item-rate">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="clearfix"></div>
+        </div>
+        <!-- client section -->
+
+        <!-- partner section -->
+        <div class="container">
+            <section id="partner" class="partner">
+                <h5>Mening sheriklarim <span class="blur-line"></span></h5>
+                <h2 class="section-title">Mening sheriklarim haqida</h2>
+                <div class="partner-items">
+                    <div class="partner-item">
+                        <div class="partner-item-image">
+                            <img src="./images/partner3.jpg" alt="partner women">
+                            <img src="./images/partner1.jpg" alt="partner woman">
+                        </div>
+                        <div class="partner-item-info">
+                            <h3 class="patner-item-name">Selena and Alina and Jenifer</h3>
+                            <p class="partner-item-position">Senior Developers</p>
+                            <p class="partner-item-review">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in 
+                                a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin 
+                                professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, 
+                                from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered 
+                                the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" 
+                                (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, 
+                                very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from 
+                                a line in section 1.10.32.<br>Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered 
+                                the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" 
+                                (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, 
+                                very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from
+                                There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, 
+                                by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of 
+                                Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators
+                                 on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses
+                                  a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks
+                                   reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!-- partner section -->
+
+        <!-- footer -->
+        <div class="container">
+            <footer id="footer">
+                <nav class="main-navigation">
+                    <ul class="main-navigation-items">
+                        <li class="main-navigation-item active">
+                            <a href="#">asosiy</a>
+                        </li>
+                        <li class="main-navigation-item">
+                            <a href="#">men haqimda</a>
+                        </li>
+                        <li class="main-navigation-item">
+                            <a href="#">xizmatlar</a>
+                        </li>
+                        <li class="main-navigation-item">
+                            <a href="#">mijozlar</a>
+                        </li>
+                        <li class="main-navigation-item">
+                            <a href="#">portfolio</a>
+                        </li>
+                        <li class="main-navigation-item">
+                            <a href="#">blok</a>
+                        </li>
+                        <li class="main-navigation-item">
+                            <a href="#">sheriklarim</a>
+                        </li>
+                    </ul>
+                </nav>
+            </footer>
+        </div>
+        <!-- footer -->
+    </body>
+</html>

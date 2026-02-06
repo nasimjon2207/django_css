@@ -1,0 +1,340 @@
+/* asosiy stillar */
+
+body{
+    font-family: sans-serif;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.clearfix{
+    clear: both;
+}
+
+/* asosiy stillar */
+
+#logo{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#footer :hover{
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+#logo img{
+    width: 64px;
+    border-radius: 15px;
+}
+.main-navigation{
+    display: inline-block;
+    vertical-align: middle;
+}
+.main-navigation-item{
+    display: inline-block;
+    padding: 10px;
+}
+.main-navigation-item a{
+    color: #05364d;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500px;
+}
+.main-navigation-item a:hover{
+    color: burlywood;
+}
+.main-navigation-item.active a{
+    color: #efb6df;
+}
+
+/* main section */
+ .main-section{
+    padding: 100px 30px;
+ }
+ .main-section > div{
+    width: 50%;
+    float: left;
+ }
+ .main-section-image{
+    text-align: right;
+    
+ }
+ .main-section-image img{
+    width: 400px;
+    height: 500px;
+    text-align: right;
+    border-radius: 50px;
+ }
+ .main-section-welcome{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    color: #797979;
+ }
+
+ /* tanishtirv qismi */
+ .main-section-introduction{
+    margin-top: 20px;
+    font-size: 60px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #05364E;
+ }
+
+ .main-section-position{
+    color: #05364E;
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 20px;
+ }
+
+ .main-section-action{
+    margin-top: 30px;
+    border: none;
+    background-color: #1c44e4;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 20px 40px;
+    cursor: pointer;
+    border-radius: 10px;
+ }
+ .main-section-social-networks a{
+   color: #797979;
+   font-size: 25px;
+   display: inline-block;
+   margin-right: 20px;
+   cursor: pointer;
+
+ }
+ .main-section-social-networks a :hover{
+   color: #1c44e4;
+ }
+
+ /* statistika */
+ .statistika{
+    padding-top: 100px;
+ }
+ .statistika-item{
+    width: 150px;
+    display: inline-block;
+    background-color: rgb(247, 236, 223);
+    text-align: center;
+    padding: 5px 10px;
+    margin-right: 10px;
+    border-radius: 15px;
+ }
+ .statistika-number{
+    font-size: 27px;
+    margin-bottom: 5px;
+    color: #1c44e4;
+ }
+ .statistika-title{
+    font-size: 16px;
+    color: #05364E;
+    font-weight: 700;
+ }
+
+ /* about me section */
+ .about-me{
+   padding: 100px 0;
+ }
+ .about-me > div{
+   width: 50%;
+   float: left;
+ }
+ .about-me-image img{
+   border-radius: 25px;
+   width: 500px;
+   height: aoto;
+   border-radius: 15px;
+ }
+ .about-me-description{
+   font-size: 25px;
+   font-weight: 500;
+ }
+ .button{
+   border-radius: 5px;
+   width: 200px;
+   height: auto;
+   font-size: large;
+   font-weight: bold;
+   border-color: blue;
+   background-color: aqua;
+ }
+
+ .section-subtitle{
+   letter-spacing: 2px;
+   font-weight: 500;
+   margin-bottom: 10px;
+   color: #797979;
+   text-transform: uppercase;
+ }
+ .section-title{
+   margin-top: 5px;
+   font-size: 42px;
+   font-weight: 700;
+   text-transform: capitalize;
+   color: #05364d;
+ }
+ .about-me-description{
+   font-size: 14px;
+   font-weight: 300;
+   color: #797979;
+   line-height: 27px;
+ }
+ .blur-line{
+   display: inline-block;
+   margin-left: 5px;
+   width: 80px;
+   height: 4px;
+   background-color: rgba(237, 35, 159, 0.6);
+   filter: blur(4px);
+   border-radius: 4px;
+ }
+ .service-card img{
+   width: 84px;
+   border-radius: 5px;
+ }
+ /* service section */
+ .services{
+   padding-top: 100px;
+ }
+ .service-card{
+   display: inline-block;
+   width: 30%;
+   background-color: #f4f6fa;
+   margin-right: 3%;
+   text-align: center;
+   box-sizing: border-box;
+ }
+ .service-card-title{
+  color: #05364d;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+ }
+ .service-card-description{
+  font-size: 14px;
+  line-height: 27px;
+  font-weight: 300;
+  color: #797979;
+ }
+ .service-card-link{
+  font-size: 13px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #05364d;
+  text-decoration: none;
+ }
+ /* .service-card:hover{
+  background-color: #e46060;
+ } */
+ .service-card {
+  transition: background-color 0.5s ease, transform 0.3s ease;
+  border-radius: 15px;
+}
+
+.service-card:hover {
+  background-color: blueviolet;
+  transform: translateY(-25px);
+}
+ .service-card:hover .service-card-title, 
+ .service-card:hover .service-card-description,
+ .service-card:hover .service-card-link{
+  color: #ffffff;
+ }
+.client-item-image img{
+  width: 95%;
+  height: auto;
+  border-radius: 25px;
+}
+/* client section sytle */
+.clients{
+padding-top: 100px;
+}
+.client-item > div{
+  width: 50%;
+  float: left;
+  box-sizing: border-box;
+}
+.client-item-name{
+  font-size: 20px;
+  margin-bottom: 4px;
+}
+.client-item-position{
+  font-size: 14px;
+  font-weight: 300;
+  color: #5b6d75;
+}
+.client-item-review{
+  font-size: 14px;
+  line-height: 27px;
+  font-weight: 300;
+  color: #5b6d75;
+}
+.client-item-info{
+  padding-top: 50px;
+  padding-left: 50px;
+}
+.client-item-rate{
+  color: #ffd805;
+}
+
+/* partner item style */
+.partner-item-image img{
+  width: 100%;
+  height: auto;
+  border-radius: 50px;
+  padding-top: 50px;
+  padding-right: 50px;
+}
+.partner{
+  padding-top: 100px;
+}
+.partner-item > div{
+  width: 50%;
+  float: right;
+  box-sizing: border-box;
+}
+.partner-item-name{
+  font-size: 20px;
+  margin-bottom: 4px;
+}
+.partner-item-position{
+  font-size: 14px;
+  font-weight: 300;
+  color: blue;
+}
+.partner-item-review{
+  font-size: 14px;
+  line-height: 27px;
+  font-weight: 300;
+  color: blue;
+  padding-top: 50px;
+  padding-right: 50px;
+}
+.partner-item-info{
+  padding-top: 50px;
+  padding-left: 50px;
+}
+
+.main-section-action{
+  background-color: #2563eb;
+  color: white;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.main-section-action:hover {
+  background-color: #1d4ed8;
+  transform: translateY(-3px);
+}
